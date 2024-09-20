@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EducaOnline - Cursos Online Gratuitos</title>
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/cursos.css" />
+
+    <style>
+      .card {
+        border-radius: 10px;
+      }
+
+      .card img {
+        border-radius: 10px;
+        width: 100%;
+        height: auto;
+      }
+
+      .container {
+        padding: 20px;
+      }
+
+      .header-section,
+      .footer-section {
+        margin-bottom: 20px;
+      }
+
+      .footer-section {
+        border-top: 2px solid #32b8cf;
+        padding-top: 20px;
+      }
+
+      .footer-section .conteiner {
+        border-right: 1.5px solid #32b8cf;
+        padding: 10px;
+      }
+
+      .footer-section .conteiner:last-child {
+        border-right: none;
+      }
+
+      @media (max-width: 768px) {
+        .navbar-expand-lg {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+
+        .navbar-collapse {
+          width: 100%;
+        }
+
+        .navbar-nav {
+          width: 100%;
+          text-align: center;
+        }
+
+        .navbar-nav .nav-item {
+          margin: 5px 0;
+        }
+
+        .header-section {
+          flex-direction: column;
+        }
+
+        .header-section .card {
+          width: 100%;
+          margin: 0;
+          margin-bottom: 20px;
+        }
+
+        .footer-section {
+          flex-direction: column;
+        }
+
+        .footer-section .conteiner {
+          width: 100%;
+          border-right: none;
+          border-bottom: 1.5px solid #32b8cf;
+          margin-bottom: 10px;
+        }
+
+        .footer-section .conteiner:last-child {
+          margin-bottom: 0;
+        }
+      }
+
+      .btn-custom-width {
+        width: 80%;
+      }
+
+      .dropdown-menu-custom {
+        width: 80%;
+        margin-top: 10px; /* Margem para separar do rodapé */
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav
+      class="navbar navbar-expand-lg bg-body-tertiary"
+      style="background-color: #2bdefe !important"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">Logo</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="../index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Categorias
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="fotocur.html">Fotografia</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="edicao.html">Edição</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="cursos.html">Programação</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="header-section">
+      <div class="container d-flex flex-column flex-md-row">
+        <div
+          class="card me-md-4 mb-4 mb-md-0"
+          style="flex: 1; max-width: 25rem"
+        >
+          <img src="../img/capaprogramação.png" alt="Imagem de Programação" />
+        </div>
+        <div class="card" style="flex: 2; max-width: 50rem">
+          <div class="card-body">
+            <h2 class="card-title" style="font-size: 22px; margin: 15px">
+              Programação em HTML
+            </h2>
+            <p class="card-text" style="font-size: 18px; margin: 15px">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+              reiciendis maiores sunt nulla cum officiis animi. Numquam unde
+              commodi totam excepturi eligendi veritatis libero voluptas?
+              Molestiae blanditiis alias voluptate non.
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="dropdown">
+        <button
+          class="btn btn-secondary dropdown-toggle btn-custom-width"
+          type="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+          style="background-color: #2bdefe; color: black"
+        >
+          Carga Horária
+        </button>
+        <ul class="dropdown-menu dropdown-menu-custom">
+          <li>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-check-circle-fill"
+              viewBox="0 0 16 16"
+              style="color: blue; margin-right: 5px"
+            >
+              <path
+                d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+              />
+            </svg>
+            Lorem, ipsum dolor.
+          </li>
+          <li>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-check-circle-fill"
+              viewBox="0 0 16 16"
+              style="color: blue; margin-right: 5px"
+            >
+              <path
+                d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+              />
+            </svg>
+            Lorem, ipsum dolor.
+          </li>
+          <li>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-check-circle-fill"
+              viewBox="0 0 16 16"
+              style="color: blue; margin-right: 5px"
+            >
+              <path
+                d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+              />
+            </svg>
+            Lorem, ipsum dolor.
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <footer class="footer-section d-flex flex-column flex-md-row">
+      <div class="conteiner flex-fill text-center text-md-start">
+        <h4>Equipe</h4>
+        <p>Saulo Elias<br />Nicolas Custodio</p>
+      </div>
+      <div class="conteiner flex-fill text-center text-md-start">
+        <h4>Sobre</h4>
+        <p>Projeto Proposto pelo professor de Design Digital (DD)</p>
+      </div>
+      <div class="conteiner flex-fill text-center text-md-start">
+        <h4>Contato</h4>
+        <p>
+          <a href="#">Facebook</a><br />
+          <a href="#">Instagram</a><br />
+          <a href="#">Whatsapp: (00)4002-8922</a>
+        </p>
+      </div>
+    </footer>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

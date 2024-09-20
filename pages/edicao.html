@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EducaOnline - Cursos Online Gratuitos</title>
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/cursos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .card {
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .card-body {
+        flex-grow: 1;
+      }
+
+      .card-img-top {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+      }
+
+      .card-img-container {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav
+      class="navbar navbar-expand-lg bg-body-tertiary"
+      style="background-color: #2bdefe !important"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html"><h2>EducaOnline</h2></a>
+        <style>
+          .netflix-logo {
+            font-family: "Arial", sans-serif;
+            font-weight: bold;
+            font-size: 3rem;
+            color: #e50914;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin: 0;
+            padding: 0;
+          }
+          h2 {
+            font-size: 25px;
+          }
+        </style>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="../index.html"
+                style="font-size: 20px"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="cadastrar.html"
+                style="font-size: 20px"
+                >Cadastar</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                style="font-size: 20px"
+              >
+                Categorias
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="fotocur.html">Fotografia</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="edicao.html">Edição</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="cursos.html">Programação</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container mt-3">
+      <div class="card mb-3">
+        <div class="row g-0 h-100">
+          <div class="col-md-7 card-img-container">
+            <img
+              src="../img/edicaobanner.jpg"
+              class="img-fluid card-img-top"
+              alt="Imagem"
+            />
+          </div>
+          <div class="col-md-4 d-flex align-items-center">
+            <div class="card-body">
+              <h5
+                class="card-title"
+                style="font-size: 22px; margin-bottom: 15px"
+              >
+                Cursos de Edição
+              </h5>
+              <p class="card-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint,
+                labore voluptate iure quam est maiores nobis sed vero
+                perferendis voluptas!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container mt-5">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card">
+              <img
+                src="../img/IMAGENS EDUCAONLINE/ediçãodevideo/capaediçaõ.jfif"
+                class="card-img-top img-fluid"
+                alt="Edição de Video"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Introdução ao Curso de Edição de Vídeo
+                </h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a
+                  href="https://www.youtube.com/watch?v=D3IUtzXOwSg"
+                  target="_blank"
+                  class="btn btn-primary"
+                  >Conferir Curso</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img
+                src="../img/IMAGENS EDUCAONLINE/ediçãodevideo/edit.jfif"
+                class="card-img-top img-fluid"
+                alt="Imagens Claras"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Imagens Claras</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a
+                  href="https://www.youtube.com/watch?v=MPMBPcYh06A"
+                  target="_blank"
+                  class="btn btn-primary"
+                  >Conferir Curso</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img
+                src="../img/IMAGENS EDUCAONLINE/ediçãodevideo/claroescuro.jfif"
+                class="card-img-top img-fluid"
+                alt="Claro Escuro"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Claro Escuro</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a
+                  href="https://www.youtube.com/watch?v=MPMBPcYh06A"
+                  target="_blank"
+                  class="btn btn-primary"
+                  >Conferir Curso</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img
+                src="../img/IMAGENS EDUCAONLINE/ediçãodevideo/adobepremier.jfif"
+                class="card-img-top img-fluid"
+                alt="Introdução ao Photshop"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Introdução ao Photshop</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a
+                  href="https://www.youtube.com/watch?v=tcCjwuh6_J8&list=PLBpxpRHbe9PJb9p5AWG-I9TxR92L2kMkD"
+                  target="_blank"
+                  class="btn btn-primary"
+                  >Conferir Curso</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img
+                src="../img/editornovo.jpg"
+                class="card-img-top img-fluid"
+                alt="ferramentas"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Ferramentas Disponiveis</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a
+                  href="https://www.youtube.com/watch?v=cFXpt0_PBq8&list=PLvtNw6QSPTNoBknd7XGThOaZuD7DX3yLt"
+                  target="_blank"
+                  class="btn btn-primary"
+                  >Conferir Curso</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img
+                src="../img/IMAGENS EDUCAONLINE/ediçãodevideo/edicçãodevideodenovo.jfif"
+                class="card-img-top img-fluid"
+                alt="Edição de Video"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Edição de Video</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a
+                  href="https://www.youtube.com/watch?v=Kr2jy7j8tCk"
+                  target="_blank"
+                  class="btn btn-primary"
+                  >Conferir Curso</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer style="background-color: #22707e">
+      <h2 style="background-color: #22707e; padding: 5px">Educaonline</h2>
+      <div class="row text-center text-white">
+        <div class="col-md-4">
+          <p style="font-weight: 22px; font-weight: bold">Equipe</p>
+          <p>
+            Saulo Elias <br />
+            Nicolas Custodio
+          </p>
+        </div>
+        <div class="col-md-4">
+          <p style="font-weight: 22px; font-weight: bold">Sobre</p>
+          <p>Projeto Proposto pelo professor de Design Digital (DD)</p>
+        </div>
+        <div class="col-md-4">
+          <p style="font-weight: 22px; font-weight: bold">Contato</p>
+          <p>
+            <a href="#" class="text-white" style="text-decoration: none"
+              >Facebook</a
+            ><br /><a href="#" class="text-white" style="text-decoration: none"
+              >Instagram</a
+            ><br /><a href="#" class="text-white" style="text-decoration: none"
+              >Whatsapp: (11)4002-8922</a
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
